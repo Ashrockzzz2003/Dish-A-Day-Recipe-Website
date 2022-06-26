@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Recipes | Chinese | Chow mein</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Chow Mein</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/chinese/chinese_chow_mein.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>10 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">hourglass_top</i>
+                                <h4>15 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>19 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Hard</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: green; border: 1px solid green;">veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>2793kcal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>35g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>92g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_half</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">2 person</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <!--Copy paste ingredient item entire div to add as many ingredients required. Do not disturb ingredients-list div.-->
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>Water</h3>
+                                <p>for boiling</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Salt</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Oil</h3>
+                                <p>3 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Noodles</h3>
+                                <p>3 pack</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Corn Flour</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Chilli Powder</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Cumin Powder</h3>
+                                <p>¼ tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Coriander Powder</h3>
+                                <p>¼ tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Sugar</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Soy Sauce</h3>
+                                <p>2 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Vineager</h3>
+                                <p>2 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Pepper Powder</h3>
+                                <p>¼ tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Garlic</h3>
+                                <p>3 Clove</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Ginger</h3>
+                                <p>1 inch</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Spring Onion</h3>
+                                <p>few</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Onion</h3>
+                                <p>sliced</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Green Capsicum</h3>
+                                <p>sliced</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Red Capsicum</h3>
+                                <p>sliced</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Carrot</h3>
+                                <p>sliced</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Cabbage</h3>
+                                <p>1/2 cup sliced</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Chow mein are Chinese stir-fried noodles with vegetables and sometimes meat or tofu. Over the centuries, variations of Chaomian were developed in many regions in China; there are several methods of frying the noodles and range of toppings can be used.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LN4TuIxCpYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <h3>Noodles</h3>
+                                <li>firstly, in a large vessel take water.</li>
+                                <li>add 1 tsp salt, 3 tsp oil. get the water to a rolling boil.</li>
+                                <li>now add 3 pack noodles and dip completely.</li>
+                                <li>boil for 3 minutes, or refer to package instructions to know the cooking time.</li>
+                                <li>separate the noodles and drain off.</li>
+                                <li>rinse with cold water to stop cooking and turning noodles mushy.</li>
+                                <h3>Chow Mein Sauce</h3>
+                                <li>firstly, in a small bowl take 1 tsp corn flour, 1 tsp chilli powder, ¼ tsp cumin powder and ¼ tsp coriander powder.</li>
+                                <li>also add 1 tsp sugar, ¾ tsp salt, 2 tbsp soy sauce and 2 tbsp vinegar.</li>
+                                <li>further, add 2 tsp oil and ¼ tsp pepper powder. traditionally, sesame oil and oyster sauce is also added.</li>
+                                <li>mix well making sure there are no lumps, chowmein sauce ready.</li>
+                                <h3>Chow Mein</h3>
+                                <li>firstly, in a large wok, heat 2 tbsp oil and stir fry 3 clove garlic, 1 inch ginger and few spring onion.</li>
+                                <li>add ½ onion, ½ green capsicum, ½ red capsicum, ½ carrot and ½ cup cabbage.</li>
+                                <li>stir fry until the vegetables shrink yet remain crunchy.</li>
+                                <li>make sone space in the centre and pour the prepared sauce.</li>
+                                <li>stir fry on high flame for a minute until everything is well combined.</li>
+                                <li>also, add ½ cup cabbage and stir fry.</li>
+                                <li>further, add boiled noodles and give a good toss.</li>
+                                <li>make sure the spices are well combined with noodles.</li>
+                                <li>finally, add more spring onions, and enjoy veg chowmein.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>
