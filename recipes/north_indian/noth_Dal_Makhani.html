@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | North | Dal Makhani</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Dal Makhani</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/north_indian/North_Dal_Makhani.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>10 hrs 10 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>20 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: green; border: 1px solid green;">veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>350kcal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>51g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>15g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">4 person</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>Whole black lentil</h3>
+                                <p>1 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Rajma</h3>
+                                <p>1/4 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>water</h3>
+                                <p>4 cups</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Un salted butter</h3>
+                                <p>3 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>ghee</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>onion</h3>
+                                <p>1</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>ginger garlic paste</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Tamato pure</h3>
+                                <p>1 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>salt</h3>
+                                <p>2 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Red chilli powder</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>garam masala</h3>
+                                <p>1 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Water</h3>
+                                <p>2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Kasuri methi</h3>
+                                <p>1/2 tsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>cup cream</h3>
+                                <p>1/4</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Bay leaf</h3>
+                                <p>1</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>green cardamoms</h3>
+                                <p>2</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>black cardamom</h3>
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>This Dal Makhani recipe is a restaurant style version with subtle smoky flavors and creaminess of the lentils. If you love authentic Punjabi food then you are going to love this Dal Makhani even more.</p>
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AAOLGNNzpn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <li>Wash and rinse urad dal (whole black lentil) and rajma (kidney beans) in a large bowl. Soak in 3 cups water overnight.</li>
+                                <li>In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. </li>
+                                <li>Pressure cook on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles.</li>
+                                <li>Let the pressure release naturally. The dal and rajma should be completely cooked and you should be able to mash them with your fingers. If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.</li>
+                                <li>Mash some of the dal and rajma using a potato masher. Then turn on the heat to lowest heat and let the dal simmer while you make the masala.</li>
+                                <li>To make the masala, in a large pot/pan, heat 2 tablespoons butter  (I use and recommend amul salted butter here) and 1 tablespoon ghee on medium heat.</li>
+                                <li>Once the butter melts and is hot, add the finely grated onion. Cook the onion for around 6 to 7 minutes or until it turns light golden brown. Keep stirring it continuously so that it doesn't burn and keep heat on medium.</li>
+                                <li>Add the ginger garlic paste and cook for 1 to 2 minute until the raw smell goes away.</li>
+                                <li>Add the tomato puree and mix. Cook for 2 minutes or until the puree mixes well with masala and oil starts oozing out from the sides.</li>
+                                <li>Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix.</li>
+                                <li>Add garam masala, kashmiri red chili powder and salt. Mix to combine. </li>
+                                <li>Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes. </li>
+                                <li>Stir often (every 10 minutes or so) else dal will stick to the bottom of the pot. You will also need to add water. I added total of 1.5 cups water as the dal was simmering.</li>
+                                <li>Add sugar and mix after the dal has simmered for 45 minutes.</li>
+                                <li>Also add the remaining 1 tablespoon butter and 1/4 cup cream. Mix well.</li>
+                                <li>Simmer for 10 more minutes on low heat after adding the cream. Dal will become really creamy by now. You may serve the dal at this point or do the additional step of giving it a smokey flavor.</li>
+                                <li>Simmer for 10 more minutes on low heat after adding the cream. Dal will become really creamy by now. You may serve the dal at this point or do the additional step of giving it a smokey flavor.</li>
+                                <li>Place hot charcoal in that steel bowl on top of the trivet. Pour melted ghee (around 1 tablespoon) on top of charcoal.</li>
+                                <li>You will immediately see fumes coming out of charcoal. Immediately close the pan with a lid. Let it remain like this for 2 minutes. After 2 minutes, remove lid and remove the bowl from dal. The longer you keep the lid closed, the smokier dal will get and for dal makhani I don't like it very smokey so 2 minutes was good for me. You may do 5 minutes but don't do more.</li>
+                                <li>Garnish dal makhani with more cream and serve with a pat of amul butter. Enjoy!</li>
+                         </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>
