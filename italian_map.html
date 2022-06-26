@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Italian Cusine</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        html{
+            background-color: none;
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+            from { bottom:-100px; opacity:0 } 
+            to { bottom:0px; opacity:1 }
+        }
+
+        @keyframes animatebottom { 
+            from{ bottom:-100px; opacity:0 } 
+            to{ bottom:0; opacity:1 }
+        }
+
+        body{
+            background: url(https://wallpaperaccess.com/full/826922.jpg) center / cover no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: 'Poppins', 'Open Sans', sans-serif;
+        }
+        .container{
+            background-color: rgb(0, 0, 0, 0.5);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .container h2{
+            font-size: 2.5rem;
+            background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+            /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .container-item{
+            background-color: black;
+            border-radius: 25px;
+            padding: 30px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .container-item h6{
+            color: black;
+            background-color: white;
+            padding: 3px;
+            width: fit-content;
+            margin-left: auto; 
+            margin-right: auto;
+            border-radius: 5px;
+        }
+        .container-item a{
+            color: black;
+            text-decoration: none;
+            font-size: medium;
+            font-weight: bold; 
+            background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+            width: fit-content; 
+            padding: 3px; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            border-radius: 5px;
+            transition: all 200ms ease-in;
+        }
+        .container-item a:hover{
+            transform: scale(1.05);
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h2>Italian Cuisine</h2>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Arancini.jpg" height="200px" width="150px">
+                <h4>Arancini</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_arancini.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Bagna_Cauda.jpg" height="200px" width="150px">
+                <h4>Bagna Cauda</h4>
+                <h6>Piedmont, Italy</h6>
+                <a href="recipes/italian/italian_bagna_cauda.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Focaccia.jpg" height="200px" width="150px">
+                <h4>Focaccia</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_focaccia.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Gnocchi.jpg" height="200px" width="150px">
+                <h4>Gnocchi</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_gnocchi.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Lasagna.jpg" height="200px" width="150px">
+                <h4>Lasagne</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_lasagna.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Pizza.jpg" height="200px" width="150px">
+                <h4>Pizza</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_pizza.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Polenta.jpg" height="200px" width="150px">
+                <h4>Polenta</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_polenta.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Ribollita.jpg" height="200px" width="150px">
+                <h4>Ribollita</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_ribollita.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Risotto.jpg" height="200px" width="150px">
+                <h4>Risotto</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_risotto.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/italian/Italian_Tuna_Pasta.jpg" height="200px" width="150px">
+                <h4>Tuna Pasta</h4>
+                <h6>Italy</h6>
+                <a href="recipes/italian/italian_tuna_pasta.html" target="_blank">View Recipe</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Chinese Cusine</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        html{
+            background-color: none;
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+            from { bottom:-100px; opacity:0 } 
+            to { bottom:0px; opacity:1 }
+        }
+
+        @keyframes animatebottom { 
+            from{ bottom:-100px; opacity:0 } 
+            to{ bottom:0; opacity:1 }
+        }
+
+        body{
+            background: url(https://wallpaperaccess.com/full/826922.jpg) center / cover no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: 'Poppins', 'Open Sans', sans-serif;
+        }
+        .container{
+            background-color: rgb(0, 0, 0, 0.5);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .container h2{
+            font-size: 2.5rem;
+            background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+            /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .container-item{
+            background-color: black;
+            border-radius: 25px;
+            padding: 30px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .container-item h6{
+            color: black;
+            background-color: white;
+            padding: 3px;
+            width: fit-content;
+            margin-left: auto; 
+            margin-right: auto;
+            border-radius: 5px;
+        }
+        .container-item a{
+            color: black;
+            text-decoration: none;
+            font-size: medium;
+            font-weight: bold; 
+            background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+            width: fit-content; 
+            padding: 3px; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            border-radius: 5px;
+            transition: all 200ms ease-in;
+        }
+        .container-item a:hover{
+            transform: scale(1.05);
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h2>Chinese Cusine</h2>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/chinese/chinese_chow_mein.jpg" height="200px" width="150px">
+                <h4>Chow Mein</h4>
+                <h6 style="background-color: green; color: white;">veg</h6>
+                <a href="recipes/chinese/chinese_chow_mein.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/chinese/chinese_fried_rice.jpg" height="200px" width="150px">
+                <h4>Schezwan Fried Rice</h4>
+                <h6 style="background-color: green; color: white;">veg</h6>
+                <a href="recipes/chinese/chinese_fried_rice.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/chinese/chinese_sushi.jpg" height="200px" width="150px">
+                <h4>Sushi</h4>
+                <h6 style="background-color: red; color: white;">non-veg</h6>
+                <a href="recipes/chinese/chinese_sushi.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/chinese/chinese_veg_manchurian.jpg" height="200px" width="150px">
+                <h4>Veg Ball Manchurian</h4>
+                <h6 style="background-color: green; color: white;">veg</h6>
+                <a href="recipes/chinese/chinese_Manchurian.html" target="_blank">View Recipe</a>
+            </div>
+            <div class="container-item">
+                <img src="assets/cusines/recipes/chinese/Chinese_Peking_Duck.jpg" height="200px" width="150px">
+                <h4>Peking Duck</h4>
+                <h6 style="background-color: red; color: white;">non-veg</h6>
+                <a href="recipes/chinese/Chinese_Peking_Duck.html" target="_blank">View Recipe</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Dish A Day | Create Recipe</title>
+        <link rel="stylesheet" type="text/css" href="styles/style_form.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts and icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Unicons CDN Link for Icons -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+        <!-- JavaScript -->
+        <script src="js/form_logic.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="map.html">Explore Recipes</a></li>
+                <li><a href="create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Main Form-->
+        <div class="recipe-form">
+            <h1>Submit Your recipe</h1>
+            <p>Share your Amazing Recipes with thousands of users<br>across the world. Fill out the form to get started!</p>
+            <div class="recipe-form-body">
+                <form id="create_recipe_form" autocomplete="off">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" oninvalid="setCustomValidity('Please Enter your name!')" oninput="setCustomValidity('')" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="password" oninvalid="setCustomValidity('Please Enter your email!')" oninput="setCustomValidity('')" required>
+
+                    <label for="recipe_name">Recipe Name</label>
+                    <input type="text" id="recipe_name" oninvalid="setCustomValidity('Please Enter your Recipe Name!')" oninput="setCustomValidity('')" required>
+
+                    <label for="description">About Recipe</label>
+                    <textarea form="create_recipe_form" placeholder="Enter About Recipe" oninvalid="setCustomValidity('Please Enter About Recipe!')" oninput="setCustomValidity('')" required></textarea>
+
+                    <label for="description">Steps</label>
+                    <textarea form="create_recipe_form" placeholder="Enter Instructions" oninvalid="setCustomValidity('Please Enter Instructions!')" oninput="setCustomValidity('')" required></textarea>
+
+                    <label for="ingredient_list">Ingredients</label>
+                    <p>(Add ingredients first before entering!)</p>
+                    <div id="ingredients">
+                        <input type="text" id="ingredient_1" placeholder="Enter Ingredient 1" required>
+                    </div>
+                    <br>
+                    <div class="btn">
+                        <button onclick="addIngredient()">+ Add Ingredient</button>
+                        <button onclick="removeIngredient()">- Remove Ingredient</button>
+                    </div>
+
+                    <label for="category">Category</label>
+                    <select id="category" oninvalid="setCustomValidity('Please Select Category!')" oninput="setCustomValidity('')" required>
+                        <option>North Indian</option>
+                        <option>South Indian</option>
+                        <option>Italian</option>
+                        <option>Chinese</option>
+                        <option>Dessert</option>
+                        <option>Beverages</option>
+                    </select>
+                    <br>
+
+                    <label for="vnv">Veg/ Non-Veg</label>
+                    <select id="vnv" oninvalid="setCustomValidity('Please Select Veg/Non-Veg!')" oninput="setCustomValidity('')" required>
+                        <option value="Veg">Veg</option>
+                        <option value="Non-Veg">Non-Veg</option>
+                    </select>
+                    <br>
+
+                    <label>Upload Food Image</label>
+                    <label for="food_image" id="file_label">
+                        Select File<input type="file" id="food_image" oninvalid="setCustomValidity('Please Upload Recipe Image!')" oninput="setCustomValidity('')" required>
+                    </label>
+                    <br>
+                    <input type="submit" onclick="validateAndSubmit()" class="btn-primary" style="height: 40px; width: fit-content; margin-left: auto; margin-right: auto;" value="Submit Recipe"><br>
+                    <input type="reset" class="btn-primary" style="height: 40px; width: fit-content; margin-left: auto; margin-right: auto;" value="Clear">
+                </form>
+            </div>
+        </div>
+
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="index.html" style="color: white; font-weight: bold;">Dish A Day</a></p>
+        </div>
+    </body>
+</html>
