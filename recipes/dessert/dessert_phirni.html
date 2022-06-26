@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | Desserts | Phirni</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Phirni</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/dessert/Dessert_Phirni.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>30 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>21 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: green; border: 1px solid green;">veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>0.344kcal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>13g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>9.3g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">4 person</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>Basmati rice</h3>
+                                <p>1/4 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>whole milk</h3>
+                                <p>1 litre</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>sugar</h3>
+                                <p>1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>pistachios</h3>
+                                <p>10-20</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>alomnds</h3>
+                                <p>10-12</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>saffron strands</h3>
+                                <p>12-15</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>rose water</h3>
+                                <p>2 tea spoon</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Phirni also called as firni is a classic slow-cooked Indian sweet pudding made with basmati rice, milk, nuts, sugar and scented with cardamom powder or saffron or rose water. It is a must in North India on festive occasions or special celebrations like Diwali as well as for Karwa Chauth Festival.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OPAIFY_4Wrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <h3>Grinding Rice</h3>
+                                <li>Rinse the rice a couple of times in water. Drain the water and let them dry on their own by spreading them on a tray or plate. Or wipe the grains dry with a kitchen towel.</li>
+                                <li>Take the dried rice grains in a dry grinder or coffee grinder. Grind the rice till the consistency resembles sooji (rava or fine semolina) or corn meal or couscous .</li>
+                                <li>Alternatively, soak the rice in water for 30 minutes and then drain the water. Dry the rice grains naturally and later grind to a semi fine powder.</li>
+                                <li>Set the ground rice aside.</li>
+                                <h3>Blanching Almonds And Pistachios</h3>
+                                <li>Take hot boiling water in a small bowl. Add the nuts and cover the bowl.</li>
+                                <li>Blanch for 30 minutes. Drain the water.</li>
+                                <li>When the almonds and pistachios become warm, then peel and later slice or chop them.</li>
+                                <li>Reserve a few almond and pistachio slices for garnish.</li>
+                                <h3>Making Phirni</h3>
+                                <li>Heat milk in a thick bottomed broad pan or sauce pan or kadai.</li>
+                                <li>When the milk becomes warm, take 1 tablespoon from it in a small bowl.</li>
+                                <li>Stir the saffron strands in this warm milk and keep aside.</li>
+                                <li>Let the milk reach to a boil. Then lower the heat and add the ground rice. Stir and add sugar also.</li>
+                                <li>On a low to medium heat cook the ground rice in the milk. Do not cover the pan.</li>
+                                <li>Keep on stirring at intervals so that the lumps are not formed.</li>
+                                <li>Also powder the cardamoms in a mortar-pestle. Discard the cardamom peels.</li>
+                                <li>When the rice is almost cooked, add the almonds, pistachios, cardamom powder and saffron infused milk.</li>
+                                <li>Stir and cook for a further 5 to 6 minutes or more or till the firni thickens and the rice granules are softened and cooked completely.</li>
+                                <li>Lastly add rose water, once the firni is done.</li>
+                                <li>Pour the phirni in serving bowls. Garnish it with the remaining chopped almond and pistachio slices.</li>
+                                <li>Cover the bowls tightly with lid or secure firmly with aluminium foil. Once cooled at room temperature, refrigerate phirni for about 4 hours or more.</li>
+                                <li>Serve phirni once cooled. Store it in the refrigerator for 2 to 3 days and in the freezer, for about 1 week.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>
