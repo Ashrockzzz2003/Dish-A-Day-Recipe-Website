@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | Italian | Risotto</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Rissoto</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/italian/Italian_Risotto.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>50mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>7 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: red; border: 1px solid red;">non-veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>336 cal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>13 g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>12g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_half</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">4 person</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>low-sodium chicken broth </h3>
+                                <p>4 c</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>water</h3>
+                                <p>3 c</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>butter</h3>
+                                <p>4 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>yellow onion</h3>
+                                <p>1 small</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>garlic</h3>
+                                <p>2 clove</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>arborio rice</h3>
+                                <p>1&1/2 C</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Kosher salt </h3>
+                                <p>as required</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>dry white wine </h3>
+                                <p>1/4 c</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>fresh lemon juice </h3>
+                                <p>1 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>freshly grated Parmesan cheese</h3>
+                                <p>1 c</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Freshly ground black pepper </h3>
+                                <p>as required</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>chopped chives </h3>
+                                <p>2 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>finely chopped basil </h3>
+                                <p>2 tbsp</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>There is nothing as creamy and decadent as risotto. This easy rice dish is as comforting as it comes and while it may seem intimidating it really is simple. All you need is an hour, some arborio rice, good quality chicken broth, a little butter and cheese and wine, along with your favorite aromatics like onion, garlic, and basil.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NKtR3KpS83w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <li>In a medium pot, combine water and broth and bring to simmer. </li>
+                                <li>Meanwhile, in a large straight-sided skillet over medium-high heat, melt 2 tablespoons butter. Add onion and cook, stirring occasionally, until softened, about 5 minutes. Add garlic and cook, stirring, until fragrant, about 1 minute.</li>
+                                <li>Stir rice into onion mixture and season with 1 1/2 teaspoons salt. Cook, stirring constantly, until rice is lightly toasted, about 4 minutes.</li>
+                                <li>Pour wine into rice mixture and bring to a boil. Cook, until almost evaporated, about 30 seconds.</li>
+                                <li>Reduce heat to medium and pour a few ladlefuls of warm broth into skillet and cook, stirring gently until broth is absorbed. Continue to cook, repeating adding a few ladlefuls of broth and stirring until broth is absorbed before adding more, until rice is al dente, about 20 minutes.</li>
+                                <li>Remove skillet from heat and stir in remaining 2 tablespoons butter, lemon juice, and Parmesan. Season with salt and pepper.</li>
+                                <li>Top with chives and basil and more Parmesan before serving.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | Italian | Arancini</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--Font Awesone Icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Arancini</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/italian/Italian_Arancini.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>55 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>4 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: red; border: 1px solid red;">non-veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>252 cal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>16.4 g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>6.3g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_half</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">18 rice balls</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>olive oil</h3>
+                                <p>1 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Onions (Chopped)</h3>
+                                <p>1 small</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Garlic</h3>
+                                <p>1 clove</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>uncooked arborio rice</h3>
+                                <p>1 Cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>dry white wine</h3>
+                                <p>1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>boiling chicken stock</h3>
+                                <p>2&1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>green peas</h3>
+                                <p>1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>chopped ham</h3>
+                                <p>2 ounces</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>salt and pepper</h3>
+                                <p>as Required</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>parmesan cheese</h3>
+                                <p>1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>egg beaten</h3>
+                                <p>1 egg</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>egg</h3>
+                                <p>1</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>milk</h3>
+                                <p>1 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>mozzarella cheese</h3>
+                                <p>4 ounces</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>all pur flour</h3>
+                                <p>1/2 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>bread crumbs</h3>
+                                <p>1 cup</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>vegetable oil</h3>
+                                <p>1 cup</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>An Italian rice ball made with white wine risotto, and a gooey mozzarella center. Fantastic for lunch or dinner - can be frozen.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HY8HQUlepE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <li>Heat the olive oil in a large saucepan over medium heat. Add onion and garlic, and cook, stirring until onion is soft but not browned. Pour in the rice, and cook stirring for 2 minutes, then stir in the wine, and continue cooking and stirring until the liquid has evaporated. Add hot chicken stock to the rice 1/3 cup at a time, stirring and cooking until the liquid has evaporated before adding more.</li>
+                                <li>When the chicken stock has all been added, and the liquid has evaporated, stir in the peas and ham. Season with salt and pepper. Remove from the heat, and stir in the Parmesan cheese. Transfer the risotto to a bowl, and allow to cool slightly.</li>
+                                <li>Stir the beaten egg into the risotto. In a small bowl, whisk together the remaining egg and milk with a fork. For each ball, roll 2 tablespoons of the risotto into a ball. Press a piece of the mozzarella cheese into the center, and roll to enclose. Coat lightly with flour, dip into the milk mixture, then roll in bread crumbs to coat.</li>
+                                <li>Heat oil for frying in a deep-fryer or large deep saucepan to 350 degrees F (175 degrees C). Fry the balls in small batches until evenly golden, turning as needed. Drain on paper towels. Keep warm in a low oven while the rest are frying.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table width = "fit-content" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="recipe_review">
+                        <h2 style="
+                        font-size: 2.25rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Meet our Chef</h2>
+                        <table style="text-align: center; margin-left: auto; margin-right: auto;">
+                            <tr>
+                                <td><img src="../../assets/chef/chef.png" height="150" width="120"></td>
+                                <td>
+                                    <div class="ingredient-item" style="padding: 15px;">
+                                        <h3>Chef Gusteau</h3>
+                                        <p>Ratatoullie[2007 - present]</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div class="recipe_review">
+                        <h1>Rate Our Recipe</h1>
+                        <div class="review">
+                            <div class="post">
+                                <div class="text">Thanks for rating us!</div>
+                                <div class="edit">EDIT REVIEW</div>
+                            </div>
+                            <div class="star-widget">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                                <form action="#">
+                                <header></header>
+                                <div class="textarea">
+                                    <textarea cols="30" placeholder="Describe your Cooking experience"></textarea>
+                                </div>
+                                <div class="btn">
+                                    <button type="submit">Share</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                        <script>
+                            const btn = document.querySelector("button");
+                            const post = document.querySelector(".post");
+                            const widget = document.querySelector(".star-widget");
+                            const editBtn = document.querySelector(".edit");
+                            btn.onclick = ()=>{
+                                widget.style.display = "none";
+                                post.style.display = "block";
+                                editBtn.onclick = ()=>{
+                                widget.style.display = "block";
+                                post.style.display = "none";
+                                }
+                                return false;
+                            }
+                        </script>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>

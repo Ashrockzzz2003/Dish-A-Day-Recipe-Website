@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | Italian | Gnocchi</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Gnocchi</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/italian/Italian_Gnocchi.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>60 mins</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>3 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: red; border: 1px solid red;">non-veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>329 cal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>2 g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>9.7g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">4 servings</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>potatoes</h3>
+                                <p>2</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>egg</h3>
+                                <p>1</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>all pur flour</h3>
+                                <p>2 cup</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Homemade Potato Gnocchi are soft and tender and way better than store-bought. Gnocchi is also freezer-friendly. This recipe makes a generous batch so you can freeze some for another meal.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/unAOVy92a_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <li>Bring a large pot of salted water to a boil. Peel potatoes and add to pot. Cook until tender but still firm, about 15 minutes. Drain, cool and mash with a fork or potato masher.</li>
+                                <li>Combine 1 cup mashed potato, flour and egg in a large bowl. Knead until dough forms a ball. Shape small portions of the dough into long "snakes". On a floured surface, cut snakes into half-inch pieces.</li>
+                                <li>Bring a large pot of lightly salted water to a boil. Drop in gnocchi and cook for 3 to 5 minutes or until gnocchi have risen to the top; drain and serve.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>

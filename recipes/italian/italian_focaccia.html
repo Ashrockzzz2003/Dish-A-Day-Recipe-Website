@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Recipes | Italian | Focaccia</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_recipe.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="../../index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../map.html">Explore Recipes</a></li>
+                <li><a href="../../create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Recipe-Card-->
+        <div class="recipe_card_outline">
+            <h1>Focaccia</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/cusines/recipes/italian/Italian_Focaccia.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#recipe_main" style="text-decoration: none;">View Recipe</a>
+                    </td>
+                    <td class="recipe_about">
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <i class="material-icons">schedule</i>
+                                <h4>2 hrs</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">view_timeline</i>
+                                <h4>9 steps</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">tips_and_updates</i>
+                                <h4>Beginner</h4>
+                            </div>
+                            <div class="graphic">
+                                <i class="material-icons">restaurant</i>
+                                <!--If veg, green, else change green to red wherever you see it guys.-->
+                                <h4 style="background-color: green; border: 1px solid green;">veg</h4>
+                            </div>
+                        </div>
+
+                        <!--Nutrions-->
+                        <h2>Nutritions</h2>
+                        <div class="graphic-set">
+                            <div class="graphic">
+                                <h3>143 cal</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Calories</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>8 g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Fat</p>
+                            </div>
+                            <div class="graphic">
+                                <h3>3g</h3>
+                                <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">Protein</p>
+                            </div>
+                        </div>
+
+                        <!--Famous restaurant or place to eat this item-->
+                        <h2>Rating</h2>
+                        <!--Based on number of ratings, insert stars for half star use star_half instead of star-->
+                        <div class="rating">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </div>
+
+                        <h2>Serves</h2>
+                        <!--
+                        <input class="taste_bar" type="range" value="90" min="0" max="100">
+                        -->
+                        <p style="color: black; font-weight: bold; background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); width: fit-content; padding: 3px; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">15 servings</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <!--Recipe main-->
+        <!--Ingredients-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="recipe_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width = "40%">
+                    <div class="ingredients">
+                        <h2 style="
+                        font-size: 2.45rem;
+                        background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+                        /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;"
+                        >Ingredients</h2>
+                        <div class="ingredients-list">
+                            <div class="ingredient-item">
+                                <h3>extra-virgin olive oil</h3>
+                                <p>120ml</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>fresh thyme</h3>
+                                <p>1 tbsp</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>Garlic</h3>
+                                <p>2 clove</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>fresh rosemary</h3>
+                                <p>1 tablespoon</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>fresh ground black pepper</h3>
+                                <p>1/4 tablespoon</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>warm water</h3>
+                                <p>235ml</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>active dry yeast</h3>
+                                <p>2 1/4 tablespoon</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>maple syrup</h3>
+                                <p>1/4 tablespoon</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3> all-purpose flour</h3>
+                                <p>315grams</p>
+                            </div>
+                            <div class="ingredient-item">
+                                <h3>fine sea salt</h3>
+                                <p>1/2 tablespoon</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Our focaccia bread recipe is very simple to make - no fancy equipment is needed at all. The secret to the best focaccia is a great tasting olive oil. Since there is quite a bit used, the bread really takes on the flavor. You don’t need to spend lots of money, just use olive oil you love.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-DmVedGWAnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <h2>Steps</h2>
+                        <div class="steps">
+                            <ol>
+                                <h3>MAKE DOUGH</h3>
+                                <li>In a cold medium skillet, combine olive oil, minced garlic, thyme, rosemary, and black pepper. Place the pan over low heat and cook, stirring occasionally, 5 to 10 minutes or until aromatic, but before the garlic browns. Set aside.</li>
+                                <li>In a large bowl, combine the warm water, yeast, and honey. Stir a few times then let sit for 5 minutes.</li>
+                                <li>Add 1 cup of flour and a 1/4 cup of infused garlic-olive oil mixture to the bowl with yeast and honey. Stir 3 to 4 times until the flour has moistened. Let sit for another 5 minutes.</li>
+                                <li>Stir in the remaining 1 ½ cups of flour and salt. When the dough comes together, transfer to a floured board and knead 10 to 15 times until smooth.</li>
+                                <li>Transfer the dough to a large oiled bowl, cover with a warm, damp towel and let rise for 1 hour. (It’s best to let the dough rise in a warmer area of your kitchen).</li>
+                                <h3>BAKE BREAD</h3>
+                                <li>After 1 hour, heat the oven to 450 degrees Fahrenheit.</li>
+                                <li>Use two tablespoons of the remaining garlic-olive oil mixture to oil a 9-inch by 13-inch rimmed baking sheet. (See above if you do not have this pan size).</li>
+                                <li>Transfer the dough to the baking sheet then press it down into the pan. Use your fingers to dimple the dough then drizzle the top with the remaining 2 tablespoons of the garlic olive oil mixture. Let the dough rise for 20 minutes until it puffs slightly.</li>
+                                <li>Bake until golden brown, 15 to 20 minutes. Cool baked focaccia bread on a wire rack.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#latest_recipes" target="_blank">More Recipies</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="../../assets/team/ashwin.jpg">
+                    <h4>Ashwin Narayanan S</h4>
+                    <p>CB.EN.U4CSE21008</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/thilak.jpeg">
+                    <h4>Basam Thilaknath Reddy</h4>
+                    <p>CB.EN.U4CSE21010</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/ganesh.jpg">
+                    <h4>Bhojanapalli Sri Ganesh</h4>
+                    <p>CB.EN.U4CSE21011</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sreepadh.jpeg">
+                    <h4>A Sandilya Sreepadh</h4>
+                    <p>CB.EN.U4CSE21009</p>
+                </div>
+                <div class="contact-item">
+                    <img src="../../assets/team/sajith.jpeg" width="200px">
+                    <h4>Sajith Rajan P</h4>
+                    <p>CB.EN.U4CSE21052</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">Dish A Day</a></p>
+        </div>
+        <script src = "../../js/recipe_logic.js"></script>
+    </body>
+</html>
