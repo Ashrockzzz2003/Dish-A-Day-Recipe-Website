@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+html{
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+
+body{
+    background: url(https://wallpaperaccess.com/full/826922.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+.logo{
+    border-radius: 25px;
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    vertical-align: middle;
+    padding: 12px 16px;
+    margin: 0 8px;
+    top: 0;
+    color: white;
+    transition: all .2s;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo i{
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: xx-large;
+    background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 200ms ease-in;
+    border-radius: 50%;
+    padding-right: 10px;
+    position: relative;
+}
+
+.logo:hover{
+    background: white;
+    font-weight: bold;
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.1);
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.logo a:hover{
+    color: black;
+}
+
+.menu-bar{
+    border-radius: 25px;
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+}
+
+.menu-bar li{
+    list-style: none;
+    color: white;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .2s;
+}
+
+.menu-bar li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-bar li:hover{
+    background: white;
+    font-weight: bold;
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.2);
+    color: black;
+    border-radius: 25px;
+}
+
+.menu-bar a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.btn-primary {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: #2563EB;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+  
+.btn-primary:hover {
+    background: #1D4ED8;
+}
+
+.contact-us{
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+	height: fit-content;
+    text-align: center;
+}
+
+.contact-us h2{
+    font-size: 2.5rem;
+    background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+    /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-us h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contact-item{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+    line-height: 1.8rem;
+    margin-bottom: 5px;
+    border-radius: 25px;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 200ms ease-in;
+}
+
+.contact-item img{
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 100px;
+    height: 110px;
+}
+
+.contact-item p{
+    color: black;
+    font-weight: bold; 
+    background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+    width: fit-content; 
+    padding: 3px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 5px;
+}
+
+.contact-item:hover{
+    transform: scale(1.05);
+}
+
+.recipe-form{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 25px;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+	height: fit-content;
+    text-align: center;
+}
+
+.recipe-form h1{
+    font-size: 3.75rem;
+    background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+    /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recipe-form-body{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 25px;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+	height: fit-content;
+    text-align: center;
+}
+
+form{
+    display: block;
+}
+
+label{
+    display: block;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+input{
+    display: block;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    background: transparent;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 100%;
+    color: white;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: large;
+    color: white;
+    height: 100px;
+    max-width: 100%;
+    border: 1px solid #f2f2f2;
+    background: transparent;
+}
+
+form button{
+    outline: none;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-weight: bold; 
+    background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+    width: fit-content; 
+    padding: 7px 13px;
+    margin: 7px;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 5px;
+    transition: all 200ms ease-in;
+}
+
+form button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+form select{
+    display: block;
+    font-size: large;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    background: transparent;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    color: white;
+}
+
+form select option{
+    color: white;
+    background: black;
+}
+
+form input[type=file]{
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+form input[type=file]::-webkit-file-upload-button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+#file_label{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+    width: fit-content; 
+    padding: 3px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 5px;
+    width: 100%;
+    transition: all 200ms ease-in;
+}
+
+#file_label:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.on_submit{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 25px;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+	height: fit-content;
+    text-align: center;
+}
+
+.on_submit i{
+    font-size: 10rem;
+    background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+    /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.on_submit h1{
+    font-size: 3.75rem;
+    background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+    /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#go_back{
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%); 
+    width: fit-content; 
+    padding: 3px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 5px;
+    transition: all 200ms ease-in;
+}
+
+#go_back:hover{
+    transform: scale(1.1);
+}

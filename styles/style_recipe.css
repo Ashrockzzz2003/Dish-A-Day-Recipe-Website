@@ -1,0 +1,622 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: none;
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+body {
+  background: url(https://wallpaperaccess.com/full/826922.jpg) center / cover
+    no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+.logo {
+  border-radius: 25px;
+  height: fit-content;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  vertical-align: middle;
+  padding: 12px 16px;
+  margin: 0 8px;
+  top: 0;
+  color: white;
+  transition: all 0.2s;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo i {
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: xx-large;
+  background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 200ms ease-in;
+  border-radius: 50%;
+  padding-right: 10px;
+  position: relative;
+}
+
+.logo:hover {
+  background: white;
+  font-weight: bold;
+  box-shadow: 0px 3px 20px 0px black;
+  transform: scale(1.1);
+  color: black;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.logo a:hover {
+  color: black;
+}
+
+.menu-bar {
+  border-radius: 25px;
+  height: fit-content;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  padding: 0 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0;
+}
+
+.menu-bar li {
+  list-style: none;
+  color: white;
+  padding: 12px 16px;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.menu-bar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-bar li:hover {
+  background: white;
+  font-weight: bold;
+  box-shadow: 0px 3px 20px 0px black;
+  transform: scale(1.2);
+  color: black;
+  border-radius: 25px;
+}
+
+.menu-bar a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.btn-primary {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #2563eb;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+/*Main Recipe Content*/
+
+.recipe_card_outline {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.recipe_card_outline h1 {
+  font-size: 3.5rem;
+  background-image: linear-gradient(300deg, #ff00ff 34%, #fffb00 54%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.recipe_card_outline table,
+tr,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: white;
+    border: 1px solid white;*/
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .recipe_card_outline table,
+  tr,
+  td {
+    display: block;
+  }
+}
+
+.recipe_card_outline img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  transition: all 200ms ease-in;
+}
+
+.recipe_card_outline img:hover {
+  transform: scale(1.05);
+}
+
+.recipe_about {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.recipe_about h2 {
+  background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.7rem;
+}
+
+.graphic-set {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.graphic {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 200ms ease-in;
+}
+
+.graphic h4 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.graphic i {
+  font-size: xx-large;
+  background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.graphic:hover {
+  transform: scale(1.2);
+}
+
+.rating i {
+  font-size: xx-large;
+  background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ingredients {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ingredient-item {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+  width: 8em;
+  line-height: 1.8rem;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 200ms ease-in;
+}
+
+.ingredient-item:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 950px) {
+  .ingredients h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.ingredient-item p {
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  width: fit-content;
+  padding: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.main-content {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.main-content h2 {
+  background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-content p {
+  color: white;
+  width: fit-content;
+  padding: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.steps {
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 950px) {
+  .body table,
+  tr,
+  td {
+    display: block;
+  }
+  iframe {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+.main-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  width: fit-content;
+  padding: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  transition: all 200ms ease-in;
+}
+
+.main-content a:hover {
+  transform: scale(1.1);
+}
+
+.contact-us {
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  height: fit-content;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem;
+  background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+  /*background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-us h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.contact-item {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 200ms ease-in;
+}
+
+.contact-item img {
+  border-radius: 50%;
+  padding-top: 10px;
+  width: 100px;
+  height: 110px;
+}
+
+.contact-item p {
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  width: fit-content;
+  padding: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*Recipe Review*/
+
+.recipe_review {
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  height: fit-content;
+}
+
+.recipe_review h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-image: linear-gradient(315deg, #fffb00 40%, #ff00ff 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review {
+  position: relative;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review .post {
+  display: none;
+}
+.review .text {
+  font-size: 25px;
+  background-image: linear-gradient(315deg, #17f9f2 40%, #b0f9a9 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+.review .edit {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+}
+.review .edit:hover {
+  text-decoration: underline;
+}
+.review .star-widget input {
+  display: none;
+}
+.star-widget label {
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color: #fff700;
+}
+input:checked ~ label {
+  color: #fff700;
+}
+input#rate-5:checked ~ label {
+  color: #fff700;
+  text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header:before {
+  content: "I just hate it!";
+}
+#rate-2:checked ~ form header:before {
+  content: "I don't like it ";
+}
+#rate-3:checked ~ form header:before {
+  content: "It is awesome!";
+}
+#rate-4:checked ~ form header:before {
+  content: "I just like it!";
+}
+#rate-5:checked ~ form header:before {
+  content: "I just love it!!";
+}
+.review form {
+  display: none;
+}
+input:checked ~ form {
+  display: block;
+}
+form header {
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+form .textarea {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  font-size: 17px;
+}
+.textarea textarea:focus {
+  border-color: black;
+}
+form .btn {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: rgba(132, 0, 255, 0.4);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .btn button:hover {
+  background: rgba(132, 0, 255, 0.8);
+}
